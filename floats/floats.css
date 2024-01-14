@@ -32,6 +32,16 @@
     background-color: orange;
 }
 
+img {
+    float: left;
+    width: 150px;
+    margin: 20px;
+}
+
+.desc {
+    margin: 10px;
+}
+
 .footer {
     clear: both;
     overflow: hidden;
