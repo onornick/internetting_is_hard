@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #EDEFFF;
+}
+
+.page {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.menu {
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.sidebar {
+    float: left;
+    width: 248px;
+    height: 300px;
+    background-color: pink;
+}
+
+.content {
+    float: left;
+    width: 650px;
+    height: 500px;
+    background-color: orange;
+}
+
+.footer {
+    clear: both;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.footer-item {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: azure;
+}
+
+.avatar {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background-color: grey;
+    border-radius: 40px;
+
+}
+
+.username {
+    font-family: "Helvetica", "Arial", san-serif;
+    font-size: 24px;
+    margin: 6px;
+}
+
+.description {
+    overflow: hidden;
+    margin: 6px;
+}
